@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Play</title>
+</head>
+<body>
+    <form action="/madlib">
+        <div>
+        What is your favorite color?
+        <select name="color" id="color-select">
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="yellow">Yellow</option>
+        </select>
+        </div>
+
+        <div>
+        Name a noun:
+        <input type="text" name="noun">
+        </div>
+
+        <div>
+        Name a person:
+        <input type="text" name="madlib_person">
+        </div>
+        
+        <div>
+        Name an adjective:
+        <input type="text" name="adjective">""
+        </div>
+        
+        <!-- radio button -->
+        <div>
+        Pick a verb:
+        <input type="radio" name="verb" value="running" id="running-verb">
+        <label for="running-verb">Running</label>
+        <input type="radio" name="verb" value="waddling" id="waddling-verb">
+        <label for="waddling-verb">Waddling</label>
+        <input type="radio" name="verb" value="skipping" id="skipping-verb">
+        <label for="skipping-verb">Skipping</label>
+        </div>
+
+        <!-- checkbox -->
+        Pick a noun:
+        <input type="checkbox" name="item1" value="goldfish" id="goldfish-item1">
+        <label for="goldfish-item1">Goldfish</label>
+
+        <input type="checkbox" name="item2" value="skeletons" id="skeletons-item2">
+        <label for="skeletons-item2">Skeletons</label>
+        
+        <input type="checkbox" name="item3" value="beanie" id="beanie-item3">
+        <label for="beanie-item3">Beanie</label>
+
+        
+        <input type="submit">
+    </form>
+</body>
+</html>
